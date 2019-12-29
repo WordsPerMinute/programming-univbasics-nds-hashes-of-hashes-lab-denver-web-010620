@@ -38,7 +38,7 @@ def naming_system
           Order: {
             Family: {
               Genus: {
-                Species: {}
+                Species: ""
               }
             }
           }

@@ -41,21 +41,7 @@ def naming_system
     :Species => {}
   }
 
-  child = {
-    :name=>"Carrie Fisher",
-    :mother=>{
-      :name=>"Debbie Reynolds",
-      :mother=>{
-        :name=> "Maxene Reynolds"
-      },
-      :father=>{}
-    },
-    :father=>{
-      :name=>"Eddie Fisher",
-      :mother=>{},
-      :father=>{}
-    }
-  }
+
   # PORTION_1 = {
   #   label: "Kingdom",
   #   sub_category: {

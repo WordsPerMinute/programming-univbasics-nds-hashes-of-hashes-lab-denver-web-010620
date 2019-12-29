@@ -31,8 +31,16 @@
 # }
 
 def naming_system
-  classifyLifeOnEarth = {
-    :Kingdom => {
+  # PORTION_1 = {
+  #   label: "Kingdom",
+  #   sub_category: {
+  #     label: "Phylum",
+  #     sub_category: {
+  #       label: "Class"
+  #     }
+  #   }
+  # }
+    Kingdom = {
       :Phlyum => {
         :Class => {
           :Order => {
@@ -46,16 +54,6 @@ def naming_system
         }
       }
   }
-
-  # PORTION_1 = {
-  #   label: "Kingdom",
-  #   sub_category: {
-  #     label: "Phylum",
-  #     sub_category: {
-  #       label: "Class"
-  #     }
-  #   }
-  # }
 
   # Remember:
   #  Kingdom

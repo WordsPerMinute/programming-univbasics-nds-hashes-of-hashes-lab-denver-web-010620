@@ -32,19 +32,19 @@
 
 def naming_system
   classifyLifeOnEarth = {
-    label: "Kingdom" {
-      label: "Phlyum" {
-        label: "Class" {
-          label: "Order" {
-            label: "Family" {
-              label: "Genus" {
-                label: "Species"
+    :Kingdom {
+      :Phlyum {
+        :Class {
+          :Order {
+            :Family {
+              :Genus {
+                :Species
+                }
               }
             }
           }
         }
       }
-    }
   }
   # PORTION_1 = {
   #   label: "Kingdom",

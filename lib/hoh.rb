@@ -40,19 +40,21 @@ def naming_system
   #     }
   #   }
   # }
-    Kingdom = {
-      :Phlyum => {
-        :Class => {
-          :Order => {
-            :Family => {
-              :Genus => {
-                :Species => {}
+  classifyLifeOnEarth = {
+    label: "Kingdom", sub_category: {
+      label: "Phylum", sub_category: {
+        label: "Class", sub_category: {
+          label: "Order", sub_category: {
+            label: "Family", sub_category: {
+              label: "Genus", sub_category: {
+                label: "Species", sub_category: {}
                 }
               }
             }
           }
         }
       }
+  }
 
   # Remember:
   #  Kingdom

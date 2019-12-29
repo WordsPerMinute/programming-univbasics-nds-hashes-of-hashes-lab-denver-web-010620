@@ -31,6 +31,21 @@
 # }
 
 def naming_system
+  lifeOnEarth = {
+    Kingdom: {
+      Phlyum: {
+        Class: {
+          Order: {
+            Family: {
+              Genus: {
+                Species: {}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
   # Remember:
   #  Kingdom
   #  Phylum

@@ -32,13 +32,13 @@
 
 def naming_system
   classifyLifeOnEarth = {
-    :Kingdom {
-      :Phlyum {
-        :Class {
-          :Order {
-            :Family {
-              :Genus {
-                :Species
+    :Kingdom => {
+      :Phlyum => {
+        :Class => {
+          :Order => {
+            :Family => {
+              :Genus => {
+                :Species => {}
                 }
               }
             }

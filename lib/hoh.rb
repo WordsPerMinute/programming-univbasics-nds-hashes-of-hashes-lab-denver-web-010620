@@ -31,14 +31,14 @@
 # }
 
 def naming_system
-  lifeOnEarth = {
-    Kingdom: {
-      Phlyum: {
-        Class: {
-          Order: {
-            Family: {
-              Genus: {
-                Species: ""
+  classifyLifeOnEarth = {
+    label: "Kingdom" {
+      label: "Phlyum" {
+        label: "Class" {
+          label: "Order" {
+            label: "Family" {
+              label: "Genus" {
+                label: "Species"
               }
             }
           }
@@ -46,6 +46,16 @@ def naming_system
       }
     }
   }
+  # PORTION_1 = {
+  #   label: "Kingdom",
+  #   sub_category: {
+  #     label: "Phylum",
+  #     sub_category: {
+  #       label: "Class"
+  #     }
+  #   }
+  # }
+  
   # Remember:
   #  Kingdom
   #  Phylum

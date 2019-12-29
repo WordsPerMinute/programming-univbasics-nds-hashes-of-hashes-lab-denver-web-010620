@@ -46,7 +46,6 @@ def naming_system
         }
       }
   }
-  return classifyLifeOnEarth
 
   # PORTION_1 = {
   #   label: "Kingdom",
